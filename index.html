@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Css Próprio -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg bg-white shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bolder" href="#"><span class="logo">CursAqui</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#curso">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#equipe">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="container">
+            <div class="row d-flex align-items-end justify-content-end">
+                <div class="col-md-6">
+                    <h1 class="display-4 fw-bolder text-white">Dê um UP em seu conhecimento!</h1>
+                    <p class="lead text-white mb-5">Ter conhecimento amplia a sua visão do mundo. Quanto mais
+                        conhecimento você tem, mais você compreende sobre todas as coisas. E como diria Francis Bacon
+                        "conhecimento é poder".</p>
+                    <a href="#" class="btn btn-light">Vamos lá!</a>
+                    <a href="#" class="btn btn-outline-light">Sobre Nós</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/undraw_curso.svg" alt="" class="w-100 mt-4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curso -->
+    <section id="curso">
+        <div class="container my-5 py-5">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-5">
+                    <h4 class="fs-5 mb-0 text-primary">Nossos Cursos</h4>
+                    <h2 class="display-6 fw-bold">Te proporcionamos experiências muito legais</h2>
+                    <p class="lead mb-4">Ao lado temos descrições do que você pode encontrar na plataforma, aproveite o
+                        conteúdo para
+                        saber mais do que te espera!</p>
+                    <a href="#" class="btn btn-outline-primary px-4">Nossa Equipe</a>
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-bullhorn da-2x text-primary mb-3 fs-4"></i>
+                                    <h5 class="card-title fs-4 fw-bolder">Marketing</h5>
+                                    <p class="card-text">Curso de Marketing</p>
+                                    <a href="#" class="btn btn-outline-primary">Adquirir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-laptop da-2x text-primary mb-3 fs-4"></i>
+                                    <h5 class="card-title fs-4 fw-bolder">UI/UX Design</h5>
+                                    <p class="card-text">Curso UI/UX Design</p>
+                                    <a href="#" class="btn btn-outline-primary">Adquirir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-code da-2x text-primary mb-3 fs-4"></i>
+                                    <h5 class="card-title fs-4 fw-bolder">Code</h5>
+                                    <p class="card-text">HTML/CSS/JavaScript</p>
+                                    <a href="#" class="btn btn-outline-primary">Adquirir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-shield da-2x text-primary mb-3 fs-4"></i>
+                                    <h5 class="card-title fs-4 fw-bolder">Web Security</h5>
+                                    <p class="card-text">Curso Segurança Web</p>
+                                    <a href="#" class="btn btn-outline-primary">Adquirir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-briefcase da-2x text-primary mb-3 fs-4"></i>
+                                    <h5 class="card-title fs-4 fw-bolder">Negócios</h5>
+                                    <p class="card-text">Plano de Negócios</p>
+                                    <a href="#" class="btn btn-outline-primary">Adquirir</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card cardcurso">
+                                <div class="card-body text-center">
+                                    <i class="fa fa-chart-line da-2x text-primary mb-3 fs-4"></i>
+                                    <h5 class="card-title fs-4 fw-bolder">Gráficos</h5>
+                                    <p class="card-text">Gráficos e Estatísticas</p>
+                                    <a href="#" class="btn btn-outline-primary">Adquirir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 py-2 shadow">
+                    <div class="col-md-3">
+                        <img src="img/undraw_dado.svg" alt="" class="w-75">
+                    </div>
+                    <div class="col-md-9 d-flex flex-column justify-content-center">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h2 class="text-primary fs-1">9000+</h2>
+                                <h6 class="fs-5">Projetos Concluídos</h6>
+                            </div>
+                            <div class="col-md-3">
+                                <h2 class="text-primary fs-1">500+</h2>
+                                <h6 class="fs-5">Sites Otimizados</h6>
+                            </div>
+                            <div class="col-md-3">
+                                <h2 class="text-primary fs-1">750+</h2>
+                                <h6 class="fs-5">Xícaras de Café</h6>
+                            </div>
+                            <div class="col-md-3">
+                                <h2 class="text-primary fs-1">1000+</h2>
+                                <h6 class="fs-5">Pessoas Satisfeitas</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <img src="img/undraw_equipe.svg" alt="" class="w-100 mt4">
+                </div>
+                <div class="col-md-6">
+                    <h4 class="fs-5 mb-0 text-primary">Sobre Nós</h4>
+                    <h2 class="display-6 fw-bold"><span class="logo">CursAqui</span>, Sempre Formando para o Futuro</h2>
+                    <p class="lead mb-4">Há mais de 120 anos nos entrelaçamos com a vida das pessoas: nas casas onde
+                        moram, nos escritórios em que trabalham, nas pontes, rodovias e viadutos pelos quais passam
+                        diariamente. E não vamos parar por aí.</p>
+                    <a href="#" class="btn btn-outline-primary px-4">Saber Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section id="equipe">
+        <div class="container my-5 py-5">
+            <div class="row ">
+                <div class="col-12">
+                    <h3 class="fs-5 mb-0 text-primary text-center">Nossa Equipe</h3>
+                    <p class="lead mb-4 text-center">Temos uma equipe especializada para você!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pessoa1.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Megahn Travis</h5>
+                            <p class="card-text">CEO - CursAqui</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pessoa2.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Jonas Kakaroto</h5>
+                            <p class="card-text">Coordenador - CursAqui</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pessoa3.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Kelly Lima</h5>
+                            <p class="card-text">Desenvolvedora - CursAqui</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="img/pessoa4.jpg" alt="" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Stefan Moura</h5>
+                            <p class="card-text">Analista - CursAqui</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FeedBack -->
+    <section id="feedback">
+        <div class="container py-5 my-5">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="fs-5 mb-0 text-primary text-center">FeedBack</h3>
+                    <p class="lead mb-4 text-center">FeedBack de quem já fez CursAqui</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card p-3">
+                                        <div class="card-body text-center">
+                                            <i class="fa fa-quote-left fa-2x text-primary mb-4"></i>
+                                            <p class="lead card-text mb-4">Muito bom! Se pudesse eu dava mais de 5
+                                                estrelas <3</p> <h5 class="card-title fw-bold">Roger Guedes</h5>
+                                                    <p class="text-primary">Marketing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card p-3">
+                                        <div class="card-body text-center">
+                                            <i class="fa fa-quote-left fa-2x text-primary mb-4"></i>
+                                            <p class="lead card-text mb-4">Comecei não
+                                                sabendo de nada e tive experiências maravilhosas!</p>
+                                            <h5 class="card-title fw-bold">Gabriela Shimiko</h5>
+                                            <p class="text-primary">UI/UX Design</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card p-3">
+                                        <div class="card-body text-center">
+                                            <i class="fa fa-quote-left fa-2x text-primary mb-4"></i>
+                                            <p class="lead card-text mb-4">Experiência igual essa nunca tive! 5 estrelas
+                                                pra mais</p>
+                                            <h5 class="card-title fw-bold">Gustavo Alves</h5>
+                                            <p class="text-primary">Web Security</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card p-3">
+                                        <div class="card-body text-center">
+                                            <i class="fa fa-quote-left fa-2x text-primary mb-4"></i>
+                                            <p class="lead card-text mb-4">Muito bom! Recomendei pra muitos amigos.</p>
+                                            <h5 class="card-title fw-bold">Rodrigo Benz</h5>
+                                            <p class="text-primary">HTML/CSS/JavaScript</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card p-3">
+                                        <div class="card-body text-center">
+                                            <i class="fa fa-quote-left fa-2x text-primary mb-4"></i>
+                                            <p class="lead card-text mb-4">Gostei pra caramba, super recomendável.</p>
+                                            <h5 class="card-title fw-bold">Juice Trenni</h5>
+                                            <p class="text-primary">Plano de Negócios</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card p-3">
+                                        <div class="card-body text-center">
+                                            <i class="fa fa-quote-left fa-2x text-primary mb-4"></i>
+                                            <p class="lead card-text mb-4">Cursos de ótima qualidade. 5 estrelas sempre
+                                            </p>
+                                            <h5 class="card-title fw-bold">Lucy Gueback</h5>
+                                            <p class="text-primary">Gráficos</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <div class="container my-5 py-5">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-12">
+                    <h3 class="fs-5 mb-0 text-primary text-center">Nos Contate</h3>
+                    <p class="lead mb-4 text-center">Possui Alguma Dúvidas?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="img/undraw_duvida.svg" alt="" class="w-100 mt-4">
+                </div>
+                <div class="col-md-7">
+                    <form class="mb-7">
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Seu Nome">
+                        <input type="email" class="form-control my-3" id="exampleFormControlInput1"
+                            placeholder="Seu Email">
+                        <input type="text" class="form-control my-3" id="exampleFormControlInput1"
+                            placeholder="Assunto">
+                        <textarea class="form-control my-3" id="exampleFormControlTextarea1" rows="5"
+                            placeholder="Sua Mensagem"></textarea>
+                        <input type="submit" value="Enviar Dúvida" class="btn btn-outline-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer bg-primary pt-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="lead text-white text-center">&copy; Todos os Direitos Reservados | Gyo Lima</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

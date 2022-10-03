@@ -1,0 +1,19 @@
+.logo{
+    background: -webkit-linear-gradient(rgb(133, 181, 235), rgb(18, 58, 131)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* home */
+#home{
+    background: #0D6E9E;
+    min-height: 500px;
+}
+.col-md-6 img{
+    height: 400px;
+}
+/* cursos */
+.cardcurso:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
